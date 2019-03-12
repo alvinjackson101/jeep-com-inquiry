@@ -649,9 +649,10 @@ textarea {
 	}
 }
 form {
+	margin:20px;
 	padding-top: 42px;
 	min-width: 63.88%;
-	transform: translateX(-34px);
+	/*transform: translateX(-34px);*/
 }
 
 .form-control {
