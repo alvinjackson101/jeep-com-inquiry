@@ -34,68 +34,77 @@
         </div>
     </nav>
 
-    
-
-    <div class="container-fluid pt-4 bg-white">
-        <div id="vehicle_title"><h1>JEEP<sub>®</sub> PURCHASE...LIFE JUST STARTED</h1></div>
-
-        <div id="vehicle_sub_title"><h3>Fill out the form to escape from the norm.</h3>
-        
-        </div>
-
     <div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
         <div class="wrapper wrapper--w680">
             <div class="card card-1">
-                <div class="card-heading"></div>
-                <div class="card-body">
+                <div class="card-heading pt-0">
+                    
+                    <div id="vehicle_title"><h1>LIFE NEEDS A JEEP<sub>®</sub></h1></div>
+                    <div id="vehicle_sub_title"><h3>Escape the norm fill out the form.</h3>
 
-                    <form method="POST">
-                        <div class="input-group">
-                            <input class="input--style-1" type="text" placeholder="NAME" name="name">
+                </div>
+                
+                <form action="">
+
+                    <div class="form-group">
+                
+                            <input type="text" class="form-control" placeholder="FULL NAME" id="inputName">
+
+                            <input type="text" class="form-control" placeholder="BIRTH DATE" id="inputBirthDate">
+                        
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="ADDRESS">
+                     </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+
+                        <input type="text" class="form-control" id="inputCity" placeholder="CITY">
+                    </div>
+
+                <div class="form-group col-md-4">
+                        
+                        <select id="inputState" class="form-control">
+                            <option selected>STATE</option>
+                            <option>TEXAS</option>
+                        </select>
+                </div>
+    <div class="form-group col-md-2">
+      
+      <input type="text" class="form-control" id="inputZip" placeholder="ZIP">
+    </div>
+  </div>
+
+                    <div class="form-row">
+                        <input type="text" class="form-control" placeholder="Phone">
+
+                        <input type="text" class="form-control" placeholder="EMAIL">
+
+                        <div class="form-holder">
+                            <select name="" id="" class="form-control">
+                                <option value="" disabled selected>CHOOSE YOUR JEEP®</option>
+                                <option value="class 01">ALL-NEW WRANGLER</option>
+                                <option value="class 02">GRANDE CHEROKEE</option>
+                                <option value="class 03">CHEROKEE</option>
+                                <option value="class 03">COMPASS</option>
+                                <option value="class 03">RENEGADE</option>
+                                <option value="class 03">ALL_NEW GLADIATOR</option>
+                            </select>
+                            <i class="zmdi zmdi-chevron-down"></i>
                         </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <input class="input--style-1 js-datepicker" type="text" placeholder="BIRTHDATE" name="birthday">
-                                    <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <div class="rs-select2 js-select-simple select--no-search">
-                                        <select name="gender">
-                                            <option disabled="disabled" selected="selected">GENDER</option>
-                                            <option>Male</option>
-                                            <option>Female</option>
-                                            <option>Other</option>
-                                        </select>
-                                        <div class="select-dropdown"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input-group">
-                            <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="class">
-                                    <option disabled="disabled" selected="selected">CLASS</option>
-                                    <option>Class 1</option>
-                                    <option>Class 2</option>
-                                    <option>Class 3</option>
-                                </select>
-                                <div class="select-dropdown"></div>
-                            </div>
-                        </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <input class="input--style-1" type="text" placeholder="REGISTRATION CODE" name="res_code">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-t-20">
-                            <button class="btn" type="submit">GIVE ME MY JEEP®</button>
-                        </div>
-                    </form>
+
+                    </div>
+
+                    <textarea name="" id="" placeholder="DESCRIPTION" class="form-control" style="height: 130px;"></textarea>
+
+                    <div class="p-t-20 d-flex justify-content-center mb-4">
+                            
+                        <button class="btn" type="submit">GET MY JEEP®</button>
+
+                    </div>
+                </form>
                 </div>
             </div>
         </div>
